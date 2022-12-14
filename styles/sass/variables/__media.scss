@@ -1,0 +1,23 @@
+@media screen and (min-width:992px) {
+    body{
+        background-image: url("/images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size:contain;
+        height: 100vh;
+        overflow: hidden;
+        main{
+            .card{
+                width: 440px;
+                .card__plan{
+                    width: 80%;
+                }
+                .btn__proceed{
+                    width: 80%;
+                }
+                .btn__cancel{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
