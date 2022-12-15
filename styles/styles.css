@@ -80,7 +80,7 @@ body main {
 }
 .card .card__plan .card__planIconPrice .card__price .card__priceYear {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--parragraph-color);
 }
 .card .card__plan .card__planChange {
@@ -112,6 +112,7 @@ body main {
 .card .btn__proceed:hover {
   background-color: hsl(245deg, 75%, 61%);
   cursor: pointer;
+  border: 1px solid hsl(245deg, 75%, 61%);
 }
 .card .btn__cancel {
   width: 90%;

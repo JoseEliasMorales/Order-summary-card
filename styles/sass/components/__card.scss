@@ -56,7 +56,7 @@
                 }
                 .card__priceYear{
                     margin: 0;
-                    font-size: 14px;
+                    font-size: 16px;
                     color: var(--parragraph-color);
                 }
             }
@@ -90,6 +90,7 @@
         &:hover{
             background-color: hsl(245,75%,61%);
             cursor: pointer;
+            border: 1px solid hsl(245,75%,61%);
         }
     }
     .btn__cancel{
